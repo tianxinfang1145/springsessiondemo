@@ -15,6 +15,7 @@ public class TestController {
 
     @GetMapping("/get")
     public String getSession(HttpSession session){
+        shdhdhhsshkshsjkj
         return (String)session.getAttribute("msg");
     }
 }
