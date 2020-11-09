@@ -15,7 +15,7 @@ public class TestController {
 
     @GetMapping("/get")
     public String getSession(HttpSession session){
-        shdhdhhsshkshsjkj
+        System.out.println("github123");
         return (String)session.getAttribute("msg");
     }
 }
