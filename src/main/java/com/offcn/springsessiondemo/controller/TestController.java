@@ -16,6 +16,7 @@ public class TestController {
     @GetMapping("/get")
     public String getSession(HttpSession session){
         System.out.println("github123");
+         System.out.println("你好呀");
         return (String)session.getAttribute("msg");
     }
 }
